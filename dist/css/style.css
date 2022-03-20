@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow: hidden;
+}
+
+.hero-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url('../src/img/hero_img.jpg');
+
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.flex-container ul {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-child {
+  padding: 15px;
+  color: white;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.flex-child a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+.img-container img {
+  width: 500px;
+}
+
+.menu-card {
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  color: white;
+}
+
+.homepage {
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.flex-container__cards {
+  display: flex;
+}
+
+.menu-card {
+  padding: 15px;
+  margin: 15px;
+  margin-top: 50px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.paragragh {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.flex-container__about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.flex-container__about:hover {
+  cursor: pointer;
+}
+
+.svg-container {
+  color: white;
+  display: flex;
+}
+
+.svg-container i {
+  font-size: 200px;
+  margin: 50px;
+}
+
+.paragragh-container {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container__contact {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.form form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.map img {
+  width: auto;
+  height: 500px;
+}
