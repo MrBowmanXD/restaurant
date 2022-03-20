@@ -2,14 +2,18 @@ import homepage from './homepage';
 import menu from './menu';
 import './style.css';
 
-document.body.appendChild(homepage());
+const content = document.querySelector('#content');
+
+console.log(content);
+
+content.appendChild(homepage());
 
 function menuDOM() {
   const Menu = document.querySelector('.menu');
   if (Menu) {
     Menu.addEventListener('click', function () {
-      document.body.removeChild(homepage());
-      document.body.appendChild(menu());
+      content.removeChild(homepage());
+      content.appendChild(menu());
     });
   }
 }
