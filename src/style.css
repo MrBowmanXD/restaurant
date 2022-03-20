@@ -9,7 +9,7 @@ html {
 
 .hero-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
-    url('../../src/logo/Logo_restaurant.png');
+    url('../src/img/hero_img.jpg');
 
   background-size: cover;
   width: 100vw;

@@ -1,5 +1,4 @@
 import homepage from './homepage';
+import './style.css';
 
-const content = document.getElementById('content');
-
-content.appendChild(homepage());
+document.body.appendChild(homepage());
